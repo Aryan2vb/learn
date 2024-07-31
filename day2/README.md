@@ -1,6 +1,6 @@
 # Text to Speech Converter
 
-This simple Text-to-Speech Converter app allows users to convert written text into spoken words. It utilizes the Web Speech API for speech synthesis and provides a straightforward user interface.
+This simple [Text-to-Speech](https://learn-day2.vercel.app/) Converter app allows users to convert written text into spoken words. It utilizes the Web Speech API for speech synthesis and provides a straightforward user interface.
 
 ## Features
 
