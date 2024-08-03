@@ -49,6 +49,7 @@ textarea::placeholder {
 
 .row {
     width: 450px;
+    caption-side: bottom;
     display: flex;
     align-items: center;
     gap: 20px;
