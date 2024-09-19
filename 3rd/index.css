@@ -5,14 +5,51 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: ;
+  padding: 15px 30px;
+  /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+  text-align: center;
+  font-family: 'Roboto', sans-serif; /* Font for the header */
+
+  z-index: 1000; /* Ensure the header is on top of other elements */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
 body{
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0 10px;
   min-height: 100vh;
-  background: #74af85;
+  background: linear-gradient(135deg, #74af85, #429ad5);
 }
+footer {
+  text-align: center;
+  padding: 15px 0;
+  background-color: #2c2c2c;
+  color: white;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+footer p {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #f1f1f1;
+  font-size: 0.9rem;
+}
+
 .container{
   max-width: 690px;
   width: 100%;
